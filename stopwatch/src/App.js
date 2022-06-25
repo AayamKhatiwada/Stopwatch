@@ -19,12 +19,12 @@ function App() {
 
   return (
     <div className="App">
-      <div>
+      <div className='time'>
         <span>{('0'+ Math.floor((time / 6000) % 60)).slice(-2)}:</span>
         <span>{('0'+ Math.floor((time / 100) % 60)).slice(-2)}:</span>
         <span>{('0'+ Math.floor(time % 100)).slice(-2)}</span>
       </div>
-      <div>
+      <div className='buttons'>
         {!timeon && time === 0 &&(
           <button onClick={() => setTimer(true)}>Start</button>
         )}
