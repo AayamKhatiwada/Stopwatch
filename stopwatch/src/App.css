@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.time{
+  padding: 3% 4%;
+}
+
+.buttons{
+  padding: 3% 4%;
+}
+
+button{
+  padding: 2% 3%;
+  gap: 2px;
+  margin-right: 4px;
+}
